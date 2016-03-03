@@ -1,0 +1,121 @@
+/*************************************************************
+Styleset for Amazerffic
+
+@Author: Van Nguyen
+@Author: Uday Shah
+**************************************************************/
+
+body {
+  background: #cfa34a;
+  font-family: arial, helvetica, sans-serif;
+}
+
+header, main, footer {
+  min-width: 855px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+  color:#e83091;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: white;
+  overflow: auto;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+  margin-top: 100px
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+footer p{
+    color: #e83091;
+}
+
+h2 {
+    color:#e83091;
+}
+h5 {
+    font-size: 14pt;
+}
+input[type=text] {
+    font-size: 10pt;
+    border: 2pt solid #e83091;
+    border-radius: 2px;
+}
+input[type=submit] {
+    border: 2pt solid #e83091;
+    padding: 10px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+form{
+    font-size: 10pt;
+    color: #e6c64c;
+}
+ main p {
+    color:#e6c64c;
+}
+.listHeader {
+    font-weight: bold;
+}
+
+/*Link styles*/
+a {
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*Unvisited link*/
+a:link {
+    color: #ec27a3;
+}
+/*Visited link*/
+a:visited {
+    color: #ec27a3;
+}
+/*Mouse over link*/
+a:hover {
+    color: #e6c64c;
+}
+/*Selected link*/
+a:active {
+    color: #ec27a3;
+}
